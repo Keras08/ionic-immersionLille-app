@@ -1,5 +1,19 @@
 // http://ionicframework.com/docs/theming/
 
+ion-header ion-icon.back-button-icon.icon {
+    color: map-get($colors, light);
+}
+
+@font-face{
+  font-family: MarkerFelt;
+  src: url(../assets/fonts/MarkerFelt.ttf) format("ttf");
+  format-weight: 200
+}
+
+ion-title{
+  font-family: MarkerFelt !important;
+}
+
 
 // App Global Sass
 // --------------------------------------------------

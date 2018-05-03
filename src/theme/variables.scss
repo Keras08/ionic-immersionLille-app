@@ -86,3 +86,16 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+@font-face{
+  font-family: 'MarkerFelt';
+  font-style: normal;
+  font-weight: 100 !important;
+  src: url('../assets/fonts/MarkerFelt/MarkerFelt.ttf');
+}
+
+$font-family-base: "MarketFelt";
+body{
+  font-family: "MarketFelt" !important;
+  font-weight: 400 !important;
+}

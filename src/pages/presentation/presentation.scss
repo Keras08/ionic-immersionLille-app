@@ -1,0 +1,38 @@
+page-presentation {
+
+  .toolbar-background { background-color: #404040 !important; }
+  .toolbar-title { color: #FFFFFF; }
+
+  ion-img {
+    width: auto;
+    align-items: center;
+    margin : auto;
+    display: block;
+  }
+
+  ion-grid {
+    width: 100%;
+  }
+
+  .col{
+    background: #404040;
+    border: think solid black;
+    text-color: light;
+  }
+
+  h2{
+    font-family: MarkerFelt !important;
+  }
+
+  .p1{
+    font-family: MarkerFelt !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+  }
+
+  ion-card-title{
+    font-family: MarkerFelt !important;
+  }
+
+
+}
