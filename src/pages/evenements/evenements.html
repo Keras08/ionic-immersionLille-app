@@ -1,0 +1,70 @@
+<!--
+  Generated template for the EvenementsSpeciauxPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Evenements speciaux</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div id="topBar"> <a href ="#" onclick="load_home()"> HOME </a> </div>
+<div id ="content">
+  <!--<iframe src=""></iframe>-->
+</div>
+<script>
+function load_home() {
+document.getElementById("content").innerHTML='<object type="text/html" data="home.html" ></object>';
+}
+</script>
+<div ng-include="'http://ns3056809.ip-46-105-124.eu/PHP-Slim-Restful-master/api/myFile.html'"></div>
+  <div style="position: absolute; bottom: 0px; right: 2px;">
+    <ion-grid>
+    <ion-row>
+      <ion-col>
+      <p style="color:white;">  Parc d'activités le Hellu <br/>
+        2 bis rue Paul Langevin <br/>
+        59260 Lezennes  <br/>
+        Derrière Castorama <br /></p>
+      </ion-col>
+      <ion-col>
+          <p style="color:white;">
+        contact@immersion-lille.fr <br/>
+        Uniquement sur réservation <br/>
+          </p>
+      </ion-col>
+    </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+      <ion-grid align="center">
+        <ion-row>
+          <ion-col>
+            <button ion-button>
+              <ion-icon class="mainB" name="home"></ion-icon>
+            </button>
+            <p class="main">Presentation</p>
+          </ion-col>
+          <ion-col>
+            <button ion-button (click)="openTarif()">
+              <ion-icon name="cart"></ion-icon>
+            </button>
+            <p class="textT"> Tarifs </p>
+          </ion-col>
+          <ion-col>
+            <button ion-button (click)="presentPopover()">
+              <ion-icon class="add" name="add"></ion-icon>
+            </button>
+          </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>

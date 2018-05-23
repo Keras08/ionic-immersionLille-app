@@ -4,7 +4,7 @@ page-register {
   .toolbar-title { color: #FFFFFF; }
 
   .immersion-register {
-    background-image: url('../immersion.jpg');
+    background-image: url('../assets/imgs/fond.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     flex: 1;
@@ -16,7 +16,11 @@ page-register {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
   }
+
+
   ion-scroll{
     height: 200px;
   }
@@ -27,7 +31,11 @@ page-register {
     border-radius: 5px;
   }
 
-  .card-md .item-inner { border-bottom: 1px solid #dedede !important; }
+  .enableBottomBorder {
+    .item-inner {
+      border-bottom: 1px solid #dedede !important;
+    }
+  }
 
 
 
@@ -57,6 +65,17 @@ page-register {
 
     input:-moz-placeholder {
       color: #fff!important;
+    }
+
+    input[type="datetime-local"]:before {
+      content: attr(placeholder) !important;
+      color: #fff;
+      margin-right: 0.5em;
+    }
+
+    input[type="datetime-local"]:focus:before,
+    input[type="datetime-local"]:valid:before {
+        content: "";
     }
 
     *::-webkit-input-placeholder  {

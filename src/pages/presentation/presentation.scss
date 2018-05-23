@@ -34,5 +34,41 @@ page-presentation {
     font-family: MarkerFelt !important;
   }
 
+  button{
+    background-color: #404040 !important;
+    box-shadow: none !important;
+  }
+
+  ion-icon,.textT{
+    color: white;
+  }
+
+  .textT,.main{
+    font-size: 12px;
+  }
+
+  .mainB,.cart,.add{
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main,.mainB{
+    color: #1E90FF !important;
+  }
+
+  .add{
+    margin-top: 9px;
+    font-size: 25px;
+  }
+
+  ion-footer{
+    height: 95px;
+  }
+
+  ion-toolbar{
+    height: 90px;
+  }
+
 
 }

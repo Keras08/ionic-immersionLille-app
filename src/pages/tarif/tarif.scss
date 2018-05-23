@@ -1,0 +1,74 @@
+page-tarif{
+
+  .toolbar-background { background-color: #404040 !important; }
+  .toolbar-title { color: #FFFFFF; }
+
+  ion-img {
+    width: auto;
+    align-items: center;
+    margin : auto;
+    display: block;
+  }
+
+  ion-grid {
+    width: 100%;
+  }
+
+  .col{
+    background: #404040;
+    border: think solid black;
+    text-color: light;
+  }
+
+  .custom{
+     color:blue;
+     background:none;
+     border:none;
+     padding:0;
+     font: inherit;
+     /*border is optional*/
+     cursor: pointer;
+
+  }
+
+  h5{
+    font-family: MarkerFelt !important;
+    font-weight: 500 !important;
+  }
+
+  button{
+    background-color: #404040 !important;
+    box-shadow: none !important;
+  }
+
+  ion-icon,.textP{
+    color: white;
+  }
+
+  .textP,.main{
+    font-size: 12px;
+    margin-top: 0px !important;
+  }
+
+  .mainB,.home,.add{
+    font-size: 25px;
+    padding: 0;
+    padding-bottom: 17px !important;
+    margin: 0;
+    margin-bottom: 0px !important;
+  }
+
+  .main,.mainB{
+    color: #1E90FF !important;
+  }
+
+  .add{
+    margin-top: 9px;
+    font-size: 25px;
+  }
+
+  ion-footer{
+    height: 75px;
+  }
+
+}

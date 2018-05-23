@@ -14,6 +14,17 @@ ion-title{
   font-family: MarkerFelt !important;
 }
 
+.custom-popover{
+  background-color: #404040 !important;
+}
+
+.card-md .item-md.item-block:not(:last-child) .item-inner {
+  border-bottom: 1px solid #dedede;
+}
+
+.card-md .item-md.item-block:not(.item-input):not(.item-select):not(.item-radio):not(.item-checkbox) .item-inner {
+  border: 0;
+}
 
 // App Global Sass
 // --------------------------------------------------

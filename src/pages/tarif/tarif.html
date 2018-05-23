@@ -1,0 +1,95 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Tarifs pour une activité originale ! - Immersion Lille</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div align="justify">
+  <h5>Découvrez nos tarifs pour une activité originale et fun  !</h5>
+<p>Voici nos différents tarifs, choisissez la formule qui vous convient le mieux pour être sûr de tout prévoir !</p>
+<h5 style="text-align: center;">Sortie entre amis, entre collègues ou en famille&#8230; Nous avons pensé à tout !</h5>
+<p>Immersion vous propose une aventure de 2h00 que vous pourrez prolonger par une planche apéritive à partager : Salé, Sucré &#8230;. ou la planche de l&#8217;aventurier et ses insectes à déguster !</p>
+<ion-img width="300" height="300" src="assets/imgs/TARIFSsansfond.png"></ion-img>
+  </div>
+<br /><hr /><br />
+  <div align="justify">
+<h5>Enterrements de vie de jeune fille / jeune garçon </h5>
+<ul>
+<li>L&#8217;aventure immersion</li>
+<li>Immortalisez l&#8217;événement par des photos! Repartez avec une photo imprimé de votre aventure</li>
+<li>Dégustation d&#8217;une planche apéritive!</li>
+<li>Une boisson</li>
+</ul>
+<ion-img width="300" height="180" src="assets/imgs/TarifsEVJF-2.png"></ion-img>
+  </div>
+<br /><hr /><br />
+  <div align="justify">
+<h5>Anniversaires adultes </h5>
+<ul>
+<li>L&#8217;aventure immersion</li>
+<li>Une boisson</li>
+<li>Dégustation d&#8217;une planche apéritive!</li>
+<li>Immortalisez l&#8217;événement par des photos! Repartez avec une photo imprimé de votre aventure</li>
+</ul>
+<ion-img width="300" height="180" src="assets/imgs/Tarfisannivadultes.png"></ion-img>
+  </div>
+<br /><hr /><br />
+  <div align="justify">
+    <h5>Anniversaire enfants et adolescents</h5>
+    <h1 style="text-align: center;"><span style="color: #000000;"><strong>ATTENTION: Tarif unique le Samedi 25.00 € *</strong></span></h1>
+    <ion-img width="300" height="300" src="assets/imgs/tarifenfant.png"></ion-img>
+  </div>
+  <br />
+  <div>
+    <p style="text-align: center;"><strong>Prêt à tenter l&#8217;expérience ?</strong></p>
+    <p>Que vous veniez entre amis, en famille, cette aventure est accessible à tous. Seul maître mot? Bonne humeur et énergie !</p>
+    <h5 style="text-align: center;"><a href="http://www.immersion-lille.fr/reservez-en-ligne/">Réservez dès maintenant en ligne !</a></h5>
+  </div>
+  <br />
+  <ion-grid>
+  <ion-row>
+    <ion-col>
+    <p style="color:white;">  Parc d'activités le Hellu <br/>
+      2 bis rue Paul Langevin <br/>
+      59260 Lezennes  <br/>
+      Derrière Castorama <br /></p>
+    </ion-col>
+    <ion-col>
+        <p style="color:white;">
+      contact@immersion-lille.fr <br/>
+      Uniquement sur réservation <br/>
+        </p>
+    </ion-col>
+  </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer>
+  <ion-navbar>
+      <ion-grid align="center">
+        <ion-row>
+          <ion-col>
+            <button ion-button (click)="openPresent()">
+              <ion-icon class="home" name="home"></ion-icon>
+            </button>
+            <p class="textP">Presentation</p>
+          </ion-col>
+          <ion-col>
+            <button ion-button>
+              <ion-icon class="mainB" name="cart"></ion-icon>
+            </button>
+            <p class="main"> Tarifs </p>
+          </ion-col>
+          <ion-col>
+            <button ion-button (click)="presentPopover($event)">
+              <ion-icon class="add" name="add"></ion-icon>
+            </button>
+          </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-navbar>
+</ion-footer>

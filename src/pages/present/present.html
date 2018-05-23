@@ -1,0 +1,108 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Presentation</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="tete">
+    <b><h2 class="dark-theme">
+      <span align="center">DÉCOUVREZ LES TRÉSORS</span> <br/>
+      <span align="center"> LÉGENDAIRES </span> <br />
+      <span align="center">DU NORD DE LA FRANCE </span>
+      </h2></b>
+    <br />
+    <p class="p1">Avec l’aide de notre guilde d’aventuriers,  partez à la recherche des trésors perdus de la région<br />et vivez 4 expériences hors du commun indoor à Lille-Lezennes ! </p><br /><br />
+  </div>
+  <ion-card>
+  <img src="assets/imgs/escapegame2.jpg"/>
+  <ion-card-content>
+    <ion-card-title>
+      ESCAPE GAME
+      </ion-card-title>
+    <p>
+      Révolez des égnimes et progressez dans votre aventure.
+    </p>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+<img src="assets/imgs/VR2.jpg"/>
+<ion-card-content>
+  <ion-card-title>
+    RÉALITÉ VIRTUELLE
+    </ion-card-title>
+  <p>
+    Enfilez votre casque et explorez une réalité parallèle.
+  </p>
+</ion-card-content>
+</ion-card>
+<ion-card>
+<img src="assets/imgs/Epreuve-tactique2.jpg"/>
+<ion-card-content>
+  <ion-card-title>
+    ÉPREUVE TACTIQUE
+    </ion-card-title>
+  <p>
+    Coopération technique seront vos meilleurs atouts
+  </p>
+</ion-card-content>
+</ion-card>
+<ion-card>
+<img src="assets/imgs/OBS2.png"/>
+<ion-card-content>
+  <ion-card-title>
+    DÉPASSEMENT DE SOI
+    </ion-card-title>
+  <p>
+    &#8220;Qui ose, gagne !&#8221;
+  </p>
+</ion-card-content>
+</ion-card>
+<ion-grid>
+<ion-row>
+  <ion-col>
+
+  <p align="justify" style="color:white;">  Parc d'activités le Hellu <br/>
+    2 bis rue Paul Langevin <br/>
+    59260 Lezennes  <br/>
+    Derrière Castorama <br /></p>
+  </ion-col>
+  <ion-col>
+      <p style="color:white;">
+    contact@immersion-lille.fr <br/>
+    Uniquement sur réservation <br/>
+      </p>
+
+  </ion-col>
+</ion-row>
+</ion-grid>
+</ion-content>
+<ion-footer>
+  <ion-navbar>
+      <ion-grid align="center">
+        <ion-row>
+          <ion-col>
+            <button ion-button>
+              <ion-icon class="mainB" name="home"></ion-icon>
+            </button>
+            <p class="main">Presentation</p>
+          </ion-col>
+          <ion-col>
+            <button ion-button (click)="openTarif()">
+              <ion-icon class="mainC" name="cart"></ion-icon>
+            </button>
+            <p class="textT"> Tarifs </p>
+          </ion-col>
+          <ion-col>
+            <button ion-button (click)="presentPopover($event)">
+              <ion-icon class="add" name="add"></ion-icon>
+            </button>
+          </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-navbar>
+</ion-footer>
